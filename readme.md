@@ -1,4 +1,4 @@
-CPSC 411 GoLF Compiler made by Nouman Syed
+GoLF Compiler 
 
 Building the Compiler
 
@@ -12,7 +12,7 @@ Running the Compiler
 
 Examples of running the compiler
 ./golf functest.txt
-./golf ~aycock/411/TEST/final/gen.t3
-./golf ~aycock/411/TEST/final/gen.t25 > temp.c && gcc temp.c && ./a.out
+./golf /TEST/final/gen.t3
+./golf /TEST/final/gen.t25 > temp.c && gcc temp.c && ./a.out
 
 There is additionally a run.output, which shows the results of Generated C Code which has been submitted as well in this directory.
